@@ -1,0 +1,31 @@
+
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+}
+
+.startContainer button {
+    font-size: 30px;
+    align-self: center;
+    background-color: greenyellow;
+    position: relative;
+    position: center;
+}
+
+h2 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.choiceContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonChoice {
+    font-size: 30px;
+    margin: 10px;
+    background-color: rgb(189, 92, 189);
+}
