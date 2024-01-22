@@ -5,15 +5,21 @@ h1 {
     text-align: center;
 }
 
-.startContainer button {
+h2 {
+    font-size: 25px;
+    text-align: end;
+}
+
+#startButton {
     font-size: 30px;
-    align-self: center;
+    /* text-align: center; *********** Doesn't Work *********** */
     background-color: greenyellow;
     position: relative;
     position: center;
+    align-items: end;
 }
 
-h2 {
+h3 {
     font-size: 60px;
     text-align: center;
 }
@@ -22,10 +28,20 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: start;
 }
 
-.buttonChoice {
+.choiceButton {
     font-size: 30px;
     margin: 10px;
     background-color: rgb(189, 92, 189);
 }
+
+#correctOrWrong {
+    border-color: black;
+    border-top: solid;
+    font-size: 30px;
+    text-align: center;
+}
+
+

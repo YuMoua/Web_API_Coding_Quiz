@@ -10,21 +10,24 @@
 </head>
 
 <body>
-    <div class="startContainer">
+    <div id="startContainer">
         <h1>Coding Quiz Challenge</h1>
-        <p id="timer"></p>
-        <button class="startButton">Start Quiz</button>
+        <h2 id="timer"></h2>
+        <button id="startButton">Start Quiz</button>
 
     </div>
 
     <div id="quizContainer">
-        <div id="questionBlock">
-            <h2 class="questions">How do you Code?</h2>
-            <div Class="choiceContainer">
-                <button class="buttonChoice">Answer 1</button>
-                <button class="buttonChoice">Answer 2</button>
-                <button class="buttonChoice">Answer 3</button>
-                <button class="buttonChoice">Answer 4</button>
+        <div id="questionAndAnswerBlock">
+            <h3 class="question"></h3>
+            <div class="choiceContainer" id="choiceContainer">
+                <!-- <button class="choiceButton">Answer 1</button>
+                <button class="choiceButton">Answer 2</button>
+                <button class="choiceButton">Answer 3</button>
+                <button class="choiceButton">Answer 4</button> -->
+            </div>
+            <div>
+                <p id="correctOrWrong"></p>
             </div>
 
         </div>
