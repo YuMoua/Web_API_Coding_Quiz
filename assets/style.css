@@ -1,8 +1,11 @@
-
+body {
+    background-color: rgb(211, 211, 211);
+}
 
 h1 {
     font-size: 100px;
     text-align: center;
+    background-color: violet;
 }
 
 h2 {
@@ -10,16 +13,19 @@ h2 {
     text-align: end;
 }
 
-#startButton {
-    font-size: 30px;
-    /* text-align: center; *********** Doesn't Work *********** */
-    background-color: greenyellow;
-    position: relative;
-    position: center;
-    align-items: end;
+.startButtonContainer {
+    display: flex;
+    justify-content: center;
+    
 }
 
-h3 {
+#startButton {
+    font-size: 30px;
+    background-color: greenyellow;
+    align-self: center;
+}
+
+h4 {
     font-size: 60px;
     text-align: center;
 }
@@ -35,6 +41,7 @@ h3 {
     font-size: 30px;
     margin: 10px;
     background-color: rgb(189, 92, 189);
+    width: 100%;
 }
 
 #correctOrWrong {
@@ -44,4 +51,12 @@ h3 {
     text-align: center;
 }
 
+.purpleBG {
+    background-color: rgb(216, 138, 216);
+}
+
+h3 {
+    font-size: 75px;
+    text-align: center;
+}
 

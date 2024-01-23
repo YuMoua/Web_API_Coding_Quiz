@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Multiple Elements Example</title>
+</head>
+<body>
+
+<div id="container"></div>
+
+<script>
+  // Find an existing container element
+  const container = document.getElementById('container');
+
+  // Array of content to be added
+  const contentArray = ['Element 1', 'Element 2', 'Element 3'];
+
+  // Loop through the array and create elements
+  for (const content of contentArray) {
+    // Create a new div element
+    const newDiv = document.createElement('div');
+
+    // Set content for the new element
+    newDiv.textContent = content;
+
+    // Append the new element to the container
+    container.appendChild(newDiv);
+  }
+</script>
+
+</body>
+</html>
