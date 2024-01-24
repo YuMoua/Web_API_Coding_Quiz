@@ -60,10 +60,18 @@ h3 {
     text-align: center;
 }
 
-#fail {
+/* #fail {
     color:red;
 }
 
 #pass {
     color: blue;
+} */
+
+#passOrFail {
+    color: blue;
+}
+
+#question {
+    margin-top: 20px;
 }

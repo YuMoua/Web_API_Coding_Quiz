@@ -9,6 +9,7 @@ let choiceButtonEl = document.getElementById('choiceButton');
 let buttonChoiceClassEl = document.getElementById('buttonChoiceClass');
 let passOrFailEl = document.getElementById('passOrFail');
 
+let correctOrWrongEl = document.getElementById('correctOrWrong');
 
 let timeLeft = 10;
 
@@ -89,13 +90,15 @@ function gameEnd() {
     if (testScore === 0) {
         questionAndAnswerBlockEl.remove();
         timerEl.textContent = 'Time Is Up!!!';
-        let failEl = document.querySelector('fail');
-        failEl.textContent = 'You Have Failed!!!';
+        // let failEl = document.querySelector('fail');
+        passOrFailEl.textContent = 'You Have Failed!!!';
+        correctOrWrongEl.textContent = '...Because I need to code the buttons...'
     } if (testScore >= 1) {
         questionAndAnswerBlockEl.remove();
         timerEl.textContent = '';
-        let passEl = document.querySelector('pass');
-        passEl.textContent = 'You Have Passed!!!';
+        // let passEl = document.querySelector('pass');
+        passOrFailEl.textContent = 'You Have Passed!!!';
+        correctOrWrongEl.textContent = '...Because I need to code the buttons...'
     };
     
     
