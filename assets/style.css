@@ -10,7 +10,7 @@ h1 {
 
 h2 {
     font-size: 25px;
-    text-align: end;
+    text-align: center;
 }
 
 .startButtonContainer {
@@ -60,3 +60,10 @@ h3 {
     text-align: center;
 }
 
+#fail {
+    color:red;
+}
+
+#pass {
+    color: blue;
+}
